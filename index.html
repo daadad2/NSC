@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gem Time Scale | Steven Universe Edition</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="loading-screen">
+        <div class="loading-gem">
+            <div class="gem-core"></div>
+            <div class="gem-facets"></div>
+        </div>
+        <div class="loading-text">
+            <p>Loading the universe...</p>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="crystal-bg"></div>
+    <div class="page-bg-overlay"></div>
+    <div class="universe-gradient"></div>
+    <header>
+        <div class="logo">
+            <div class="gem-logo"></div>
+            <h1>Gem Time Scale</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active" data-page="home">Home</a></li>
+                <li><a href="#" data-page="paleozoic">Paleozoic</a></li>
+                <li><a href="#" data-page="mesozoic">Mesozoic</a></li>
+                <li><a href="#" data-page="cenozoic">Cenozoic</a></li>
+                <li><a href="#" data-page="members">Our Team</a></li>
+                <li><a href="#" data-page="references">References</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="page active">
+            <div class="hero">
+                <div class="hero-text">
+                    <h2>We Are the <span class="highlight">Crystal Gems</span></h2>
+                    <h3>Exploring Earth's History Through the Geologic Time Scale</h3>
+                    <div class="btn-group">
+                        <button class="btn-gem" data-era="paleozoic">Paleozoic Era</button>
+                        <button class="btn-gem" data-era="mesozoic">Mesozoic Era</button>
+                        <button class="btn-gem" data-era="cenozoic">Cenozoic Era</button>
+                    </div>
+                </div>
+
+            <div class="time-scale-intro">
+                <h2 class="section-title"><span class="gem-icon">💎</span> What is the Geologic Time Scale?</h2>
+                <div class="scale-visual">
+                    <div class="timeline">
+                        <div class="era paleozoic" data-era="paleozoic">
+                            <div class="era-label">Paleozoic</div>
+                            <div class="era-bar"></div>
+                        </div>
+                        <div class="era mesozoic" data-era="mesozoic">
+                            <div class="era-label">Mesozoic</div>
+                            <div class="era-bar"></div>
+                        </div>
+                        <div class="era cenozoic" data-era="cenozoic">
+                            <div class="era-label">Cenozoic</div>
+                            <div class="era-bar"></div>
+                        </div>
+                    </div>
+                </div>
+                <p>The Geologic Time Scale is like Earth's personal diary, recording all the amazing changes our planet has been through. Just like the Crystal Gems have their own long history, Earth has an even longer one - about 4.6 billion years!</p>
+                <p>This scale helps us understand when different life forms appeared, when mountains rose, and even when mass extinctions happened. It's divided into eons, eras, periods, and epochs - kind of like how we divide years into months, weeks, and days.</p>
+                <div class="fun-fact">
+                    <div class="fact-icon">✨</div>
+                    <p>Did you know? The oldest minerals on Earth are zircon crystals that are over 4 billion years old! That's even older than Garnet!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="paleozoic" class="page">
+            <div class="era-header">
+                <h2>Paleozoic Era <span class="era-subtitle">(541 - 252 million years ago)</span></h2>
+                <div class="gem-shape"></div>
+            </div>
+            <p class="era-description">The Paleozoic Era was when life really started to get interesting on Earth! It's like when the Crystal Gems first came to Earth - everything was new and exciting. This era saw the first complex life forms, the first plants on land, and even the first animals with backbones!</p>
+            
+            <div class="period-grid">
+                <div class="period-card" data-period="cambrian">
+                    <div class="card-gem cambrian"></div>
+                    <h3>Cambrian</h3>
+                    <p>Life's Big Bang!</p>
+                </div>
+                <div class="period-card" data-period="ordovician">
+                    <div class="card-gem ordovician"></div>
+                    <h3>Ordovician</h3>
+                    <p>Sea life gets fancy</p>
+                </div>
+                <div class="period-card" data-period="silurian">
+                    <div class="card-gem silurian"></div>
+                    <h3>Silurian</h3>
+                    <p>Plants move ashore</p>
+                </div>
+                <div class="period-card" data-period="devonian">
+                    <div class="card-gem devonian"></div>
+                    <h3>Devonian</h3>
+                    <p>Age of Fishes</p>
+                </div>
+                <div class="period-card" data-period="carboniferous">
+                    <div class="card-gem carboniferous"></div>
+                    <h3>Carboniferous</h3>
+                    <p>Giant insects rule</p>
+                </div>
+                <div class="period-card" data-period="permian">
+                    <div class="card-gem permian"></div>
+                    <h3>Permian</h3>
+                    <p>Great Dying</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="mesozoic" class="page">
+            <div class="era-header">
+                <h2>Mesozoic Era <span class="era-subtitle">(252 - 66 million years ago)</span></h2>
+                <div class="gem-shape"></div>
+            </div>
+            <p class="era-description">The Mesozoic Era is like when the Diamonds ruled Homeworld - it was all about the dinosaurs! These magnificent creatures ruled the land, while the first mammals and birds appeared. It ended with a bang (literally - a giant asteroid!) that changed everything.</p>
+            
+            <div class="period-grid">
+                <div class="period-card" data-period="triassic">
+                    <div class="card-gem triassic"></div>
+                    <h3>Triassic</h3>
+                    <p>Dinosaurs appear</p>
+                </div>
+                <div class="period-card" data-period="jurassic">
+                    <div class="card-gem jurassic"></div>
+                    <h3>Jurassic</h3>
+                    <p>Dinos rule!</p>
+                </div>
+                <div class="period-card" data-period="cretaceous">
+                    <div class="card-gem cretaceous"></div>
+                    <h3>Cretaceous</h3>
+                    <p>Flowers & extinction</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="cenozoic" class="page">
+            <div class="era-header">
+                <h2>Cenozoic Era <span class="era-subtitle">(66 million years ago - present)</span></h2>
+                <div class="gem-shape"></div>
+            </div>
+            <p class="era-description">This is our era! Like Steven and the Crystal Gems protecting Beach City, mammals rose to prominence after the dinosaurs left. The continents moved to their current positions, ice ages came and went, and eventually humans appeared - that's us!</p>
+            
+            <div class="period-grid">
+                <div class="period-card" data-period="paleogene">
+                    <div class="card-gem paleogene"></div>
+                    <h3>Paleogene</h3>
+                    <p>Mammals take over</p>
+                </div>
+                <div class="period-card" data-period="neogene">
+                    <div class="card-gem neogene"></div>
+                    <h3>Neogene</h3>
+                    <p>Apes and grasslands</p>
+                </div>
+                <div class="period-card" data-period="quaternary">
+                    <div class="card-gem quaternary"></div>
+                    <h3>Quaternary</h3>
+                    <p>Ice Ages & Humans</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="page">
+            <h2>Our Crystal Gem Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image garnet"></div>
+                    <h3>Garnet</h3>
+                    <p>Project Leader</p>
+                    <div class="member-skills">
+                        <span>Time Vision</span>
+                        <span>Future Prediction</span>
+                        <span>Perfect Coordination</span>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image amethyst"></div>
+                    <h3>Amethyst</h3>
+                    <p>Creative Director</p>
+                    <div class="member-skills">
+                        <span>Shape-shifting</span>
+                        <span>Quick Thinking</span>
+                        <span>Fun Ideas</span>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image pearl"></div>
+                    <h3>Pearl</h3>
+                    <p>Research Specialist</p>
+                    <div class="member-skills">
+                        <span>Precision</span>
+                        <span>Organization</span>
+                        <span>Historical Knowledge</span>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image steven"></div>
+                    <h3>Steven</h3>
+                    <p>Community Outreach</p>
+                    <div class="member-skills">
+                        <span>Empathy</span>
+                        <span>Healing</span>
+                        <span>Making Friends</span>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image bismuth"></div>
+                    <h3>Bismuth</h3>
+                    <p>Builder & Architect</p>
+                    <div class="member-skills">
+                        <span>Construction</span>
+                        <span>Weapon Design</span>
+                        <span>Strength</span>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image lapis"></div>
+                    <h3>Lapis Lazuli</h3>
+                    <p>Hydrologist</p>
+                    <div class="member-skills">
+                        <span>Water Control</span>
+                        <span>Flight</span>
+                        <span>Art</span>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image peridot"></div>
+                    <h3>Peridot</h3>
+                    <p>Technology Expert</p>
+                    <div class="member-skills">
+                        <span>Engineering</span>
+                        <span>Metal Powers</span>
+                        <span>Analysis</span>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image connie"></div>
+                    <h3>Connie</h3>
+                    <p>Human Liaison</p>
+                    <div class="member-skills">
+                        <span>Sword Fighting</span>
+                        <span>Research</span>
+                        <span>Teamwork</span>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image lion"></div>
+                    <h3>Lion</h3>
+                    <p>Transportation</p>
+                    <div class="member-skills">
+                        <span>Portal Creation</span>
+                        <span>Roaring</span>
+                        <span>Fluffiness</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="behind-scenes">
+                <h3>Behind the Scenes</h3>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="images/research.jpg" alt="Steven researching">
+                        <p>Steven studying geologic records</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/analyzing.jpg" alt="Garnet analyzing">
+                        <p>Garnet using future vision to verify facts</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/organizing.jpg" alt="Pearl organizing">
+                        <p>Pearl organizing the timeline perfectly</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/creative.jpg" alt="Amethyst creative">
+                        <p>Amethyst coming up with fun activities</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="members" class="page">
+            <h2>Our Awesome Team</h2>
+            <p class="team-description">We're a group of 3 passionate Steven Universe fans and geology enthusiasts who came together to create this educational experience!</p>
+            
+            <div class="members-grid">
+                <div class="member-card">
+                    <div class="member-avatar" style="background-color: #b23a48;">
+                        <img src="images/peridot.png" alt="Team Member 1" class="team-member-img">
+           
+                    </div>
+                    <h3>Adea Frias</h3>
+                    <p>Project Leader</p>
+                    <div class="member-bio">In charge of giving tasks to the members</div>
+             
+                </div>
+                <div class="member-card">
+                    <div class="member-avatar" style="background-color: #3a7ca5;">
+                        <img src="images/connie.png" alt="Team Member 2" class="team-member-img">
+       
+                    </div>
+                    <h3>Jyanne Belmes</h3>
+                    <p>Researcher</p>
+                    <div class="member-bio">In charge of the Paleozoic research</div>
+               
+                </div>
+                <div class="member-card">
+                    <div class="member-avatar" style="background-color: #9b5de5;">
+                        <img src="images/www.png" alt="Team Member 3" class="team-member-img">
+       
+                    </div>
+                    <h3>Therese Duyag</h3>
+                    <p>Researcher and image collector</p>
+                    <div class="member-bio">In charge in a part in the research and also giving needed images</div>
+            
+                </div>
+                <div class="member-card">
+                    <div class="member-avatar" style="background-color: #84dcc6;">
+                        <img src="images/bismuth.png" alt="Team Member 4" class="team-member-img">
+                   
+                    </div>
+                    <h3>Izel Serino</h3>
+                    <p>Researcher</p>
+                    <div class="member-bio">In charge of the Cenozoic research</div>
+            
+                </div>
+                <div class="member-card">
+                    <div class="member-avatar" style="background-color: #ff9f1c;">
+                        <img src="images/lapis.png" alt="Team Member 5" class="team-member-img">
+                
+                    </div>
+                    <h3>Reanne Acharon</h3>
+                    <p>Researcher</p>
+                    <div class="member-bio">In charge in a part in the research</div>
+                  
+                </div>
+                <div class="member-card">
+                    <div class="member-avatar" style="background-color: #8bc34a;">
+                        <img src="images/pearl.png" alt="Team Member 6" class="team-member-img">
+                
+                    </div>
+                    <h3>Elijah Borja</h3>
+                    <p>Website Head</p>
+                    <div class="member-bio">Handles and creates the code for the website.</div>
+                  
+                </div>
+                <div class="member-card">
+                    <div class="member-avatar" style="background-color: #7c8c9e;">
+                        <img src="images/garnet.png" alt="Team Member 7" class="team-member-img">
+               
+                    </div>
+                    <h3>Samielle Bitco</h3>
+                    <p>Website assistant</p>
+                    <div class="member-bio">Assists the website head in needed codes</div>
+              
+                </div>
+                <div class="member-card">
+                    <div class="member-avatar" style="background-color: #e91e63;">
+                        <img src="images/16e8148e-7b53-4b09-b780-33032d4a5aca.jpg" alt="Team Member 8" class="team-member-img">
+        
+                    </div>
+                    <h3>Llois Dabon</h3>
+                    <p>Designer</p>
+                    <div class="member-bio">Provides the designs for the Wesbite head</div>
+                 
+                </div>
+                <div class="member-card">
+                    <div class="member-avatar" style="background-color: #795548;">
+                        <img src="images/team9.jpg" alt="Team Member 9" class="team-member-img">
+        
+                    </div>
+                    <h3>Michael Pabalate</h3>
+                    <p>Researcher</p>
+                    <div class="member-bio">In charge in a part in the research</div>
+              
+                </div>
+            </div>
+
+            <div class="team-quote">
+                <p>"Sige na guys, I can do this"</p>
+                <p>- Website Head</p>
+            </div>
+        </section>
+
+        <section id="references" class="page">
+            <h2>References</h2>
+            <div class="references-grid">
+                <div class="reference-card">
+                    <h3>Geologic Time Scale</h3>
+                    <ul>
+                        <li><a href="https://www.geosociety.org/GSA/Education_Careers/Geologic_Time_Scale/GSA/timescale/home.aspx" target="_blank">Geological Society of America</a></li>
+                        <li><a href="https://ucmp.berkeley.edu/cenozoic/cenozoic.php?utm_source=chatgpt.com" target="_blank">Cenozoic</a></li>
+                    </ul>
+                </div>
+                <div class="reference-card">
+                    <h3>Eras</h3>
+                    <ul>
+                        <li><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Introductory_Biology_%28CK-12%29/05%3A_Evolution/5.09%3A_Life_During_the_Paleozoic?utm_source=chatgpt.com" target="_blank">Life during the Paleozoic</a></li>
+                        <li><a href="https://www.nps.gov/articles/series.htm?id=90B58907-A98B-40CE-3A0F7CF9E150C190&utm_source=chatgpt.com" target="_blank">Paleozoic</a></li>
+                        <li><a href="https://www.nps.gov/articles/000/mesozoic-era.htm?utm_source=chatgpt.com" target="_blank">Mesozoic Era</a></li>
+                        <li><a href="https://ucmp.berkeley.edu/mesozoic/mesozoic.html?utm_source=chatgpt.com" target="_blank">Introduction of Mesozoic[Mesozoic]</a></li>
+                        <li><a href="https://www.usgs.gov/youth-and-education-in-science/mesozoic?utm_source=chatgpt.com" target="_blank">Mesozoic</a></li>
+                        <li><a href="https://www.reuters.com/science/where-did-dinosaurs-first-evolve-scientists-have-an-answer-2025-01-23/?utm_source=chatgpt.com" target="_blank">Where did dinosaurs first evolve? Scientists have an answer[Cenozoic]</a></li>
+                        <li><a href="https://ucmp.berkeley.edu/cenozoic/cenozoic.php?utm_source=chatgpt.com" target="_blank">Cenozoic</a></li>
+                    </ul>
+                </div>
+                <div class="reference-card">
+                    <h3>Educational Resources</h3>
+                    <ul>
+                        <li><a href="https://www.nationalgeographic.org/encyclopedia/geologic-time-scale/" target="_blank">National Geographic</a></li>
+                        <li><a href="https://www.britannica.com/science/geologic-time" target="_blank">Britannica</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div id="period-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2 class="modal-title">Cambrian Period</h2>
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <img src="images/cambrian-life.webp" alt="Cambrian life">
+                        <div class="image-caption">Life during the Cambrian explosion</div>
+                    </div>
+                    <div class="modal-info">
+                        <h3>Life Forms</h3>
+                        <p>The Cambrian explosion brought an incredible diversity of life! Trilobites, anomalocaris, and other strange creatures filled the oceans. It was like a big party where everyone was invited!</p>
+                        
+                        <h3>Geological Features</h3>
+                        <p>The supercontinent Rodinia had broken apart, and the continents were scattered. The climate was generally warm, with no ice at the poles. Shallow seas covered much of the land.</p>
+                        
+                        <div class="fun-fact">
+                            <div class="fact-icon">✨</div>
+                            <p>Did you know? Almost all major animal groups first appeared during the Cambrian explosion! It's like when Steven first met all the different gems!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <div id="period-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 class="modal-title">Cambrian Period</h2>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="images/cambrian-life.webp" alt="Cambrian life">
+                    <div class="image-caption">Life during the Cambrian explosion</div>
+                </div>
+                <div class="modal-info">
+                    <h3>Life Forms</h3>
+                    <p>The Cambrian explosion brought an incredible diversity of life! Trilobites, anomalocaris, and other strange creatures filled the oceans. It was like a big party where everyone was invited!</p>
+                    
+                    <h3>Geological Features</h3>
+                    <p>The supercontinent Rodinia had broken apart, and the continents were scattered. The climate was generally warm, with no ice at the poles. Shallow seas covered much of the land.</p>
+                    
+                    <div class="fun-fact">
+                        <div class="fact-icon">✨</div>
+                        <p>Did you know? Almost all major animal groups first appeared during the Cambrian explosion! It's like when Steven first met all the different gems!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="gem-logo small"></div>
+                <h3>Gem Time Scale</h3>
+            </div>
+            <div class="footer-links">
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>This is a Performance Task project of Biology 302 and NSC 101</p>
+            <p>© 2025 Gem Time Scale Project. All Rights Reserved for Kamel Group-3.</p>
+        </div>
+    </footer>
+
+    <audio id="gemSound" src="sounds/notification-delayed-digital-bell-smartsound-fx-2-00-01.mp3" preload="auto"></audio>
+    <audio id="pageSound" src="sounds/swish-paper-jam-fx-1-00-01.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
